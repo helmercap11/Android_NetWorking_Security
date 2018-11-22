@@ -9,7 +9,7 @@ public interface MainContract {
         void setPosts(Post[] posts);
         void  showError(String title, String error);
         void hideError();
-        void showPostsMessage(boolean showMessage);
+        void showNoPostsMessage(boolean showMessage);
 
     }
 
